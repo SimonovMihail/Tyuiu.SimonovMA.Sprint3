@@ -12,8 +12,8 @@ namespace Tyuiu.SimonovMA.Sprint3.Task0.V29.Lib
 
             for (int k = startValue; k <= stopValue; k++)
             {
-                double term = Math.Pow(value, Math.Pow(2, k)) + (1 / (k + 1));
-                sum = sum + term * cosValue;
+                double term = Math.Pow(value, 2*k) + (1 / (k + 1));
+                sum = sum + (term * cosValue);
             }
 
             return Math.Round(sum, 3);

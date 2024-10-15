@@ -15,7 +15,7 @@ namespace Tyuiu.SimonovMA.Sprint3.Task0.V29.Test
             int start = 1;
             int stop = 10;
 
-            Assert.AreEqual(0.278, ds.GetSumSeries(0.5, 1, 10));
+            Assert.AreEqual(0.293, ds.GetSumSeries(0.5, 1, 10));
         }
     }
 }
