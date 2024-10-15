@@ -12,7 +12,7 @@ namespace Tyuiu.SimonovMA.Sprint3.Task0.V29.Lib
 
             for (int k = startValue; k <= stopValue; k++)
             {
-                double term = Math.Pow(value, 2*k) + (1 / (k + 1));
+                double term = Math.Pow(value, 2*k) + (1.0 / (k + 1)); // В ТОЙ ДРОБИ ОБЯЗАТЕЛЬНО ПИШИ 1.0, А НЕ 1
                 sum = sum + (term * cosValue);
             }
 
