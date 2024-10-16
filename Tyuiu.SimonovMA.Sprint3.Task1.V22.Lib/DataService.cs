@@ -9,11 +9,11 @@ namespace Tyuiu.SimonovMA.Sprint3.Task1.V22.Lib
         {
             double sum = 0;
             int k = startValue;
-            double cosValue = Math.Cos(k);
             double big_repeatable_thing = 0;
             while (k <= stopValue)
             {
-                big_repeatable_thing = Math.Pow(value, k) + 1.0 / 2.0;
+                double cosValue = Math.Cos(k);
+                big_repeatable_thing = Math.Pow(value, k) + 1.0 / 2;
                 sum = sum + big_repeatable_thing * cosValue;
                 k++;
             }
