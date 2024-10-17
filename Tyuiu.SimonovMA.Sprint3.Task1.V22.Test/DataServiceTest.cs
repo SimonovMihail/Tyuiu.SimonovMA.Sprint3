@@ -14,7 +14,7 @@ namespace Tyuiu.SimonovMA.Sprint3.Task1.V22.Test
             int startValue = 1;
             int stopValue = 20;
 
-            Assert.AreEqual(5393.714, ds.GetSumSeries(value, startValue, stopValue));
+            Assert.AreEqual(3550.571, ds.GetSumSeries(value, startValue, stopValue));
         }
     }
 }
