@@ -26,7 +26,7 @@ namespace Tyuiu.SimonovMA.Sprint3.Task5.V29
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.GetSumSumSeries(2, 1, 3, 1, 10));
+            Console.WriteLine(ds.GetSumSumSeries(2, 1, 1, 3, 10));
             Console.ReadKey();
         }
     }

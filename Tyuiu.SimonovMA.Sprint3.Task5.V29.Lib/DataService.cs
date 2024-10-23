@@ -13,7 +13,7 @@ namespace Tyuiu.SimonovMA.Sprint3.Task5.V29.Lib
             {
                 for(int k = startValue2; k <= stopValue2; k++)
                 {
-                    double piece = x / k + Math.Sin(x);
+                    double piece = Convert.ToDouble(x) / k + Math.Sin(x);
                     sum = sum + piece;
                 }
             }
